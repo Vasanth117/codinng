@@ -1,3 +1,7 @@
+#include <vector>
+#include <iostream>
+using namespace std;
+
 class Solution {
 public:
     void rotate(vector<int>& nums, int k) {
@@ -15,3 +19,11 @@ public:
        nums=num;
     }
 };
+
+int main() {
+    Solution sol;
+    vector<int> nums = {1,2,3,4,5,6,7};
+    sol.rotate(nums, 3);
+    for(int n : nums) cout << n << " ";
+    return 0;
+}

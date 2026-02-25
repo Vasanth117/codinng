@@ -1,3 +1,8 @@
+#include <vector>
+#include <algorithm>
+#include <iostream>
+using namespace std;
+
 class Solution {
 public:
     int maximumGap(vector<int>& nums) {
@@ -16,3 +21,10 @@ public:
         
     
 };
+
+int main() {
+    Solution sol;
+    vector<int> nums = {3,6,9,1};
+    cout << sol.maximumGap(nums) << endl;
+    return 0;
+}

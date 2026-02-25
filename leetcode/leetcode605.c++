@@ -1,3 +1,7 @@
+#include <vector>
+#include <iostream>
+using namespace std;
+
 class Solution {
 public:
     bool canPlaceFlowers(vector<int>& flowerbed, int n) {
@@ -16,3 +20,10 @@ public:
         return false;
     }
 };
+
+int main() {
+    Solution sol;
+    vector<int> flowerbed = {1,0,0,0,1};
+    cout << sol.canPlaceFlowers(flowerbed, 1) << endl;
+    return 0;
+}

@@ -1,3 +1,6 @@
+#include <iostream>
+using namespace std;
+
 class Solution {
 public:
     bool isUgly(int n) {
@@ -18,3 +21,10 @@ public:
        
     }
 };
+
+int main() {
+    Solution sol;
+    cout << sol.isUgly(6) << endl;
+    cout << sol.isUgly(14) << endl;
+    return 0;
+}

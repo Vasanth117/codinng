@@ -1,3 +1,8 @@
+#include <vector>
+#include <algorithm>
+#include <iostream>
+using namespace std;
+
 class Solution {
 public:
     int findMaxConsecutiveOnes(vector<int>& nums) {
@@ -17,3 +22,10 @@ public:
         return m;
     }
 };
+
+int main() {
+    Solution sol;
+    vector<int> nums = {1,1,0,1,1,1};
+    cout << sol.findMaxConsecutiveOnes(nums) << endl;
+    return 0;
+}
