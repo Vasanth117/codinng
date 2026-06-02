@@ -2,14 +2,29 @@
   "version": "0.2.0",
   "configurations": [
     {
+<<<<<<< HEAD
+=======
+      "type": "java",
+      "name": "matrix",
+      "request": "launch",
+      "mainClass": "matrix",
+      "projectName": "Technical traning_2817affa"
+    },
+    {
+>>>>>>> bcbe35659377defc96fbde7dcc523cac0500d842
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
+<<<<<<< HEAD
       "cwd": "e:/coding",
       "program": "e:/coding/build/Debug/outDebug",
+=======
+      "cwd": "e:/Technical traning",
+      "program": "e:/Technical traning/build/Debug/outDebug",
+>>>>>>> bcbe35659377defc96fbde7dcc523cac0500d842
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
